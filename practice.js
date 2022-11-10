@@ -58,9 +58,9 @@
 //     console.log("akheel ossama")
 // }
 
-// remove second alphabet from ur name
+// remove the alphabets from ur name
 // a=["o","s","s","a","m","a"]
-// a.splice(5)
+// a.splice(1)
 // console.log(a)
 
 // write a program which return addition of the number
@@ -128,16 +128,98 @@
 //     console.log("it is consonants")
 // }
 
-a="abcdef"
-b=[]
-c=[]
-for(i=0;i<a.length;i++){
-    if(i%2==0){
-        b.push(a[i])
-    }else{
-        c.push(a[i])
+// a="abcdef"
+// b=[]
+// c=[]
+// for(i=0;i<a.length;i++){
+//     if(i%2==0){
+//         b.push(a[i])
+//     }else{
+//         c.push(a[i])
+//     }
+// }
+// d=b.join('')
+// e=c.join('')
+// console.log(d+e)
+
+// a=100;
+// for(i=1;i<=a;i++){
+//     console.log(i)
+// }
+
+
+// a="ossama";
+// i=1
+// while(i<=5){
+//     console.log(a)
+//     i++
+// }
+
+// a="ossama";
+// for(i=1;i<=5;i++){
+//     console.log(a)
+// }
+
+// a=3;
+// b=4;
+// sum=a-b;
+// console.log(sum)
+
+
+
+// Write a program that prints the numbers from 1 to 100 and for multiples of '3' print "Fizz" instead of
+// the number and for the multiples of '5' print "Buzz".
+
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     if ((i % 3) === 0) {
+//         console.log(`${i} is a fizz`)
+//     }
+//     else if ((i % 5) === 0) {
+//         console.log(`${i} is a buzz`)
+
+//     }
+//     else{
+//         console.log(`${i} is not a fizz nor buzz`)
+//     }
+// }
+
+// 8) Write a program to find GCD (Greatest Common Divisor) or HCF (Highest Common Factor) of two
+// numbers is the largest number that divides both of them using recursion.
+
+// function hcf (a, b){
+//     if (b==0){
+//         return a;
+//     }
+//     else{
+//         return hcf(b, a%b);
+//     }
+
+// }
+// console.log(hcf(12,18))
+
+
+// 9)Write a program find GCD of the array elements given in an array of numbers.
+
+// function gcd(a, b)
+let arr=[12, 18]
+ 
+    if (b == 0){
+        return a;
+
     }
-}
-d=b.join('')
-e=c.join('')
-console.log(d+e)
+    else{
+        return gcd(b, a%b);
+    }
+
+
+// console.log(gcd(12,18))
+    
+ 
+
+
+ 
+
+  
+// Write a program given an array of ‘N’ numbers, find LCM of it.
